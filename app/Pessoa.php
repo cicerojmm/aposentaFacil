@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pessoa extends Model {
     protected $table = 'pessoa';
-    protected $fillable = ['pes_cpf', 'pes_nome', 'pes_rg', 'dt_nasc', 'pes_DTNSC',
+    protected $fillable = ['pes_cpf', 'pes_nome', 'pes_rg', 'dt_nasc',
                             'pes_tel', 'pes_email', 'pes_dtcadastro', 'pes_dtexclusao', 'pes_status_excluido',
                                 'func_matricula_cadastrou', 'func_matricula_excluiu'];
 
