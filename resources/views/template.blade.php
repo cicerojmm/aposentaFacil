@@ -73,7 +73,7 @@
 <div class="row-fluid">
     <h3 class="page-header"><!-- @yield('titulo-secao') --></h3>
     <div class="col-md-12">
-        <!-- @yield('conteudo') -->
+        @yield('conteudo')
     </div>
 </div>
 

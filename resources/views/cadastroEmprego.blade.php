@@ -1,3 +1,6 @@
+@extends('template')
+
+@section('conteudo')
 <form class="form-horizontal">
 
   <div class="form-group row-fluid">
@@ -32,4 +35,6 @@
    </div>
 
 	<button type="submit">Enviar</button>
- </form>	
+ </form>
+
+@stop

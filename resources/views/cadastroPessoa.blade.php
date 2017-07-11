@@ -1,3 +1,7 @@
+@extends('template')
+
+@section('conteudo')
+
 <form class="form-horizontal">
 
   <div class="form-group">
@@ -35,3 +39,5 @@
 
 
  </form>
+
+    @stop
