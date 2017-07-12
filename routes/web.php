@@ -22,3 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/pessoa', 'PessoaController@index');
 Route::get('/emprego', 'EmpregoController@index');
+
+
+
+Route::post('/pessoa/salvar', 'PessoaController@salvar');

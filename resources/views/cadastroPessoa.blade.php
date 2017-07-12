@@ -2,8 +2,8 @@
 
 @section('conteudo')
 
-<form class="form-horizontal">
-
+<form class="form-horizontal" action="pessoa/salvar" method="post">
+    {{ csrf_field() }}
   <div class="form-group">
     <label for="pes_cpf" class="col-sm-2 control-label">CPF</label>
     <div class="col-sm-5">

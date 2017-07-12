@@ -3,9 +3,18 @@
 namespace App\Http\Controllers;
 
 use App\Emprego;
+use App\Pessoa;
 use Illuminate\Http\Request;
 
 class PessoaController extends Controller {
+
+    public function salvar(Request $request) {
+        $params = $request->all();
+
+        Pessoa::create($params);
+
+        return redirect()->action('PessoaController@index');
+    }
 
     public function index() {
         return view('cadastroPessoa');
