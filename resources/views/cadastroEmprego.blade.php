@@ -1,8 +1,8 @@
 @extends('template')
 
 @section('conteudo')
-<form class="form-horizontal">
-
+<form class="form-horizontal" method="post" action="/emprego/salvar">
+    {{ csrf_field() }}
   <div class="form-group row-fluid">
     <label for="emp_cargo" class="col-sm-2 control-label">Cargo</label>
     <div class="col-sm-10">

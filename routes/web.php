@@ -26,3 +26,7 @@ Route::get('/emprego', 'EmpregoController@index');
 
 
 Route::post('/pessoa/salvar', 'PessoaController@salvar');
+Route::post('/emprego/salvar', 'EmpregoController@salvar');
+
+
+Route::get('/pessoa/buscar/{id}', 'PessoaController@realizaCalculo');

@@ -2,7 +2,7 @@
 
 @section('conteudo')
 
-<form class="form-horizontal">
+<form class="form-horizontal" method="post" action="pessoa/buscar">
   <div class="form-group row">
     <label for="cpf_busca" class="col-sm-2 control-label">Digite o CPF para busca: </label>
     <div class="col-sm-10">
